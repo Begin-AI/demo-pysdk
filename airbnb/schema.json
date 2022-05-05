@@ -1,0 +1,163 @@
+
+{
+"schema": {
+    "user": {
+        "number_of_bookings": {
+            "type": "number",
+            "minv": 0,
+            "maxv": 1000
+        }
+    },
+    "interactions": {
+        "_with_home": {
+            "reviewed": {
+                "sentiment": "neutral"
+            }
+        }
+    },
+		"home": {
+			"has_hottub": {
+			    "type": "boolean"
+			},
+            "has_crib": {
+                "type": "boolean"
+            },
+            "has_wifi": {
+                "type": "boolean"
+            },
+            "has_fast_wifi": {
+                "type": "boolean"
+            },
+            "has_beachfront":  {
+                "type": "boolean"
+            },
+            "has_hdtv": {
+                "type": "boolean"
+            },
+            "has_game_console": {
+                "type": "boolean"
+            },
+            "has_full_kitchen": {
+                "type": "boolean"
+            },
+            "has_basic_kitchen": {
+                "type": "boolean"
+            },
+            "has_washer": {
+                "type": "boolean"
+            },
+            "has_dryer": {
+                "type": "boolean"
+            },
+            "has_balcony": {
+                "type": "boolean"
+            },
+            "has_dedicated_workspace": {
+                "type": "boolean"
+            },
+            "has_gym": {
+                "type": "boolean"
+            },
+            "has_swimming_pool": {
+                "type": "boolean"
+            },
+            "property_type": {
+                "type": "category",
+                "options": ["Private room in rental unit", "Private room in townhouse",
+                    "Private room in houseboat", "Entire rental unit",
+                    "Entire guest suite", "Boat", "Private room in bed and breakfast",
+                    "Entire loft", "Private room in residential home",
+                    "Private room in loft", "Entire guesthouse",
+                    "Private room in boat", "Private room in guest suite",
+                    "Entire townhouse", "Room in boutique hotel",
+                    "Entire condominium (condo)", "Entire residential home",
+                    "Entire serviced apartment", "Private room in farm stay",
+                    "Houseboat", "Room in bed and breakfast", "Entire chalet",
+                    "Private room in guesthouse", "Shared room in rental unit",
+                    "Private room in condominium (condo)",
+                    "Shared room in residential home", "Private room in island",
+                    "Entire villa", "Private room in tiny house",
+                    "Private room in villa", "Barn", "Private room in bungalow",
+                    "Private room in serviced apartment", "Entire cabin",
+                    "Room in hotel", "Entire place", "Room in aparthotel",
+                    "Tiny house", "Shared room in bed and breakfast",
+                    "Private room in cabin", "Entire cottage", "Private room",
+                    "Private room in nature lodge", "Casa particular",
+                    "Room in serviced apartment", "Tower", "Room in casa particular",
+                    "Shared room in houseboat", "Room in hostel",
+                    "Shared room in hostel", "Private room in hostel", "Bus",
+                    "Shared room in boat", "Camper/RV", "Cave", "Entire home/apt",
+                    "Private room in casa particular", "Entire vacation home"]
+            }, 
+            "price": {
+                "type": "number",
+                "minv": 20,
+                "maxv": 1000
+            },
+            "number_of_reviews": {
+                "type": "number",
+                "minv": 0,
+                "maxv": 500
+            },
+            "review_scores_cleanliness": {
+                "type": "number",
+                "minv": 1,
+                "maxv": 5
+            },
+            "review_scores_communication": {
+                "type": "number",
+                "minv": 1,
+                "maxv": 5
+            },
+            "review_scores_location": {
+                "type": "number",
+                "minv": 1,
+                "maxv": 5
+            },
+            "review_scores_value": {
+                "type": "number",
+                "minv": 1,
+                "maxv": 5
+            },
+            "review_scores_rating": {
+                "type": "number",
+                "minv": 1,
+                "maxv": 5
+            },
+            "review_scores_checkin": {
+                "type": "number",
+                "minv": 1,
+                "maxv": 5
+            },
+            "host_listings_count": {
+                "type": "number"
+            },
+            "host_response_time": {
+                "type": "category",
+                "options": ["within an hour", "within a few hours", "within a day",
+                    "a few days or more"]
+            },
+            "host_response_rate": {
+                "type": "number",
+                "minv": 0,
+                "maxv": 100
+            },
+            "host_identity_verified": {
+                "type": "boolean"
+            },
+            "host_is_superhost": {
+                "type": "boolean"
+            },
+            "host_since": {
+                "type": "date",
+                "min_date": "2008-01-01"
+            },
+            "host_acceptance_rate": {
+                "type": "number",
+                "minv": 0,
+                "maxv": 100
+            },
+            "labels": ["booking_rate_high", "booking_rate_low"]
+		}
+	}
+}
